@@ -5,17 +5,24 @@ Repository for the DL Course AA 2020-2021 @ DSSC UniTS
 
 ## Linux Setup
 
-Download, clone or fork (your choice) this repository in a directory `PATH_TO_DIR/`.
-
-Create a virtual environment using `python3` (commands are provided for *Debian-like* GNU/Linux distributions). If it's the first time you create a virtual environment, run
+Download, clone or fork (your choice) this repository in a directory `PATH_TO_DIR/`, then run.
 
 ```bash
 cd PATH_TO_DIR/DSSC_DL_2021/
+```
+
+Create a virtual environment using `python3` (commands are provided for *Debian-like* GNU/Linux distributions). If it's the first time you use `pip` and create a virtual environment, run
+
+```bash
+# Install pip for Python 3:
 sudo apt-get install python3-pip
+# Install virtualenv
 python3 -m pip install --user virtualenv
 ```
 
-If you have already installed `virtualenv`, then run only
+If you have already installed `pip` and `virtualenv`, then skip them.
+
+Then run
 
 ```bash
 python3 -m virtualenv -p "$(which python3)" venv
