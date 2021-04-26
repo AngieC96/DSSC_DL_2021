@@ -50,6 +50,12 @@ pip freeze
 
 and save the output in the file `requirements.txt`, overwriting the previous file.
 
+Too see the dependencies of a package, run
+
+```bash
+pip3 show <name_package>
+```
+
 Open your notebooks using jupyter-notebook (or jupyter-lab):
 
 ```bash
