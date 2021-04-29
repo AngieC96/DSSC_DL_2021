@@ -26,6 +26,7 @@ entrypoints==0.3
 Flask==1.1.2
 Flask-Compress==1.9.0
 future==0.18.2
+get-image-size @ git+git://github.com/scardine/image_size@fb25377f42fc6c90c280462a87a41cf20cc2ac0e
 idna==2.10
 immutables==0.15
 importlib-metadata==4.0.1

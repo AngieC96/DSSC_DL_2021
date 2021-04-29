@@ -1,9 +1,11 @@
+get-image-size @ git+git://github.com/scardine/image_size@fb25377f42fc6c90c280462a87a41cf20cc2ac0e
 jupyter
 jupyterlab
 matplotlib
 numpy
 opencv-python
 pandas
+Pillow
 requests
 scipy
 torch
